@@ -4,7 +4,7 @@ from pymongo import MongoClient
 import os
 
 app = Flask(__name__)
-title = "TODO with Flask"
+title = "TODO with Flask and MongoDB"
 heading = "ToDo Reminder"
 
 ##Un-Comment when running against the Cosmos DB Emulator
