@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 title = "TODO with Flask and MongoDB"
-heading = "ToDo Reminder"
+heading = "TODO Reminder with Flask and MongoDB"
 
 ##Un-Comment when running against the Cosmos DB Emulator
 # client = MongoClient("mongodb://127.0.0.1:10250/?ssl=true") #host uri
